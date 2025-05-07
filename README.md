@@ -99,7 +99,7 @@ Usage of ca:
   -keySize int
     	rsa key size (default 4096)
   -common_name string
-        common name (CN) for CA cert (default "MICROMDM SCEP CA")
+        common name (CN) for CA cert (default "Transparent Solutions CA")
   -organization string
     	organization for CA cert (default "scep-ca")
   -organizational_unit string

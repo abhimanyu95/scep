@@ -30,7 +30,7 @@ func TestCaCert(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	_, err = boltDepot.CreateOrLoadCA(key, 5, "MicroMDM", "US")
+	_, err = boltDepot.CreateOrLoadCA(key, 5, "Transparent Solutions", "IN")
 	if err != nil {
 		t.Fatal(err)
 	}
