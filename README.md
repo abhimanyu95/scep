@@ -1,7 +1,7 @@
 # scep
 
-[![CI](https://github.com/micromdm/scep/workflows/CI/badge.svg)](https://github.com/micromdm/scep/actions)
-[![Go Reference](https://pkg.go.dev/badge/github.com/micromdm/scep/v2.svg)](https://pkg.go.dev/github.com/micromdm/scep/v2)
+[![CI](https://github.com/abhimanyu95/scep/workflows/CI/badge.svg)](https://github.com/abhimanyu95/scep/actions)
+[![Go Reference](https://pkg.go.dev/badge/github.com/abhimanyu95/scep/v2.svg)](https://pkg.go.dev/github.com/abhimanyu95/scep/v2)
 
 `scep` is a Simple Certificate Enrollment Protocol server and client
 
@@ -10,13 +10,13 @@
 
 ## Installation
 
-Binary releases are available on the [releases page](https://github.com/micromdm/scep/releases).
+Binary releases are available on the [releases page](https://github.com/abhimanyu95/scep/releases).
 
 ### Compiling from source
 
 To compile the SCEP client and server you will need [a Go compiler](https://golang.org/dl/) as well as standard tools like git, make, etc.
 
-1. Clone the repository and get into the source directory: `git clone https://github.com/micromdm/scep.git && cd scep`
+1. Clone the repository and get into the source directory: `git clone https://github.com/abhimanyu95/scep.git && cd scep`
 2. Compile the client and server binaries: `make` (for Windows: `make win`)
 
 The binaries will be compiled in the current directory and named after the architecture. I.e. `scepclient-linux-amd64` and `scepserver-linux-amd64`.

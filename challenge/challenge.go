@@ -6,7 +6,7 @@ import (
 	"crypto/x509"
 	"errors"
 
-	scepserver "github.com/micromdm/scep/v2/server"
+	scepserver "github.com/abhimanyu95/scep/v2/server"
 
 	"github.com/smallstep/scep"
 )
